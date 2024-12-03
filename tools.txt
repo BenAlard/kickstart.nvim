@@ -1,3 +1,5 @@
+FONTS
+======================================
 nerdfonts https://www.nerdfonts.com/font-downloads CaskaydiaMono
 
 Move to fonts:
@@ -5,3 +7,10 @@ Move to fonts:
 […]$ sudo cp ~/Downloads/robofont.ttf /usr/local/share/fonts/robofont/
 
 set as font in tweaks
+
+TOOLS
+======================================
+lazygit
+tig
+zsh/ohmyzsh
+tmux
