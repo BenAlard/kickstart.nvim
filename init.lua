@@ -170,8 +170,8 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 -- Toggle tree
 vim.keymap.set('n', '<leader>t', '<cmd>NvimTreeFocus<CR>')
 
--- Open tig
-vim.keymap.set('n', '<leader>g', '<cmd>Tig<CR>')
+-- Open LazyGit
+vim.keymap.set('n', '<leader>g', '<cmd>LazyGit<CR>')
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
@@ -237,7 +237,6 @@ require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
   'nvim-tree/nvim-tree.lua',
-  'iberianpig/tig-explorer.vim',
   'kdheepak/lazygit.nvim',
 
   -- NOTE: Plugins can also be added by using a table,
