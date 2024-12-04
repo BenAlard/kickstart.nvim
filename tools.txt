@@ -1,5 +1,5 @@
 FONTS
-======================================
+=====================================
 nerdfonts https://www.nerdfonts.com/font-downloads CaskaydiaMono
 
 Move to fonts:
@@ -9,8 +9,20 @@ Move to fonts:
 set as font in tweaks
 
 TOOLS
-======================================
+=====================================
 lazygit
 tig
 zsh/ohmyzsh
-tmux
+
+TMUX
+=====================================
+~/.tmux.conf
+
+unbind r
+bind r source-file ~/.tmux.conf
+
+set -g prefix C-s
+
+set -g mouse on
+
+bind-key "'" split-window -h
